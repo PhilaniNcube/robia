@@ -1,16 +1,37 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-gradient-to-b from-lime-500 to-green-600 min-h-screen;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot');
+  src: url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.svg#Myriad Pro')
+      format('svg');
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.eot');
+  src: url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/fe9c236a1c142788cb16ec5238c7833e.svg#Minion Pro')
+      format('svg');
 }

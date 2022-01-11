@@ -1,0 +1,7 @@
+.overlay > * {
+  @apply translate-y-8 transition-transform duration-300;
+}
+
+.overlay:hover > * {
+  @apply translate-y-0;
+}
