@@ -20,11 +20,11 @@ const Hero = () => {
           platform.
         </p>
       </div>
-      <div className="h-full absolute right-12 top-0">
+      <div className="h-full absolute right-12 top-0 flex items-end justify-start">
         <img
           onMouseEnter={() => setTooltipStatus(true)}
           onMouseLeave={() => setTooltipStatus(false)}
-          className="h-full object-fit mr-2 cursor-pointer"
+          className="h-full object-cover mr-2 cursor-pointer"
           src="/images/phone.svg"
           alt="background"
           role="background"
@@ -32,7 +32,7 @@ const Hero = () => {
         {tooltipStatus && (
           <div
             role="tooltip"
-            className="z-20 -mt-[400px] w-48 absolute transition duration-150 ease-in-out left-0 ml-[20vw] shadow-lg bg-gray-800 p-4 rounded"
+            className="z-20 w-48 absolute transition duration-150 ease-in-out left-0 ml-[20vw] shadow-lg bg-gray-800 p-4 rounded"
           >
             <svg
               className="absolute left-0 -ml-2 bottom-0 top-0 h-full"

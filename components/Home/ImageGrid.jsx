@@ -23,7 +23,7 @@ const ImageGrid = () => {
             <h3 className="text-2xl font-extrabold font-myriad uppercase">
               Suppliers
             </h3>
-            <p className="text-sm mt-2 font-minion">
+            <p className="text-sm mt-2 font-mont">
               For farmers, small restaurants, food trucks, crafters & informal
               traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
               volendi tiatque volenti dellessectet illa erspellut odi dolo
@@ -43,7 +43,7 @@ const ImageGrid = () => {
             <h3 className="text-2xl font-extrabold font-myriad uppercase">
               RESTAURANTS/ FOOD TRUCKS
             </h3>
-            <p className="text-sm mt-2 font-minion">
+            <p className="text-sm mt-2 font-mont">
               For farmers, small restaurants, food trucks, crafters & informal
               traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
               volendi tiatque volenti dellessectet illa erspellut odi dolo
@@ -63,7 +63,7 @@ const ImageGrid = () => {
             <h3 className="text-2xl font-extrabold font-myriad uppercase">
               CRAFTERS
             </h3>
-            <p className="text-sm mt-2 font-minion">
+            <p className="text-sm mt-2 font-mont">
               For farmers, small restaurants, food trucks, crafters & informal
               traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
               volendi tiatque volenti dellessectet illa erspellut odi dolo
