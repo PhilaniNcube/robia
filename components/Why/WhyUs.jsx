@@ -11,8 +11,8 @@ const WhyUs = () => {
 
   return (
     <div className="text-white">
-      <div className="mx-auto max-w-7xl">
-        <div className="grid grid-cols-2 md:grid-cols-3 py-10 gap-10">
+      <div className="mx-auto max-w-5xl">
+        <div className="grid grid-cols-2 md:grid-cols-3 py-10 gap-5 max-h-[50vh]">
           {/*Tooltip One */}{' '}
           <div className="h-full w-full relative">
             <div
