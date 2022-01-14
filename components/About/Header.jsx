@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div className="">
-      <div className="max-w-7xl mx-auto text-white grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="max-w-5xl mx-auto text-white grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="w-full h-full pt-8 flex flex-col">
           <div className="flex justify-end border-r-8 border-gray-50 pr-8">
             <h1 className="font-mont text-6xl font-light leading-4 text-right">
