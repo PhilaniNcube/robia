@@ -459,11 +459,11 @@ const WhyUs = () => {
             )}{' '}
           </div>
         </div>
-        <div className="flex justify-center items-end h-[45vh]">
+        <div className="flex justify-center items-end h-[45vh] overflow-hidden">
           <img
             src="/images/people.svg"
             alt=""
-            className="h-full object-cover self-end"
+            className="h-full object-cover self-end translate-y-12"
           />
         </div>
       </div>
