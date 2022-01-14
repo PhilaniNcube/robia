@@ -459,7 +459,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
         </div>
-        <div className="flex items-end min-h-[50vh]">
+        <div className="flex items-end h-[45vh]">
           <img
             src="/images/people.svg"
             alt=""
