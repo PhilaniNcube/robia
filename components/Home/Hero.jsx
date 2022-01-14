@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const Hero = () => {
-  const [tooltipStatus, setTooltipStatus] = useState(false);
+  const [tooltipStatus, setTooltipStatus] = useState(true);
 
   return (
     <div className="max-w-5xl mx-auto text-white max-h-[50vh] flex relative">
@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="h-full absolute right-12 top-0 flex items-end justify-start">
         <img
           onMouseEnter={() => setTooltipStatus(true)}
-          onMouseLeave={() => setTooltipStatus(false)}
+          onMouseLeave={() => setTooltipStatus(true)}
           className="h-full object-cover mr-2 cursor-pointer"
           src="/images/phone.svg"
           alt="background"
