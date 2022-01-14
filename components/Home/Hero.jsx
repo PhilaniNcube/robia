@@ -5,7 +5,7 @@ const Hero = () => {
   const [tooltipStatus, setTooltipStatus] = useState(true);
 
   return (
-    <div className="max-w-5xl mx-auto text-white max-h-[50vh] py-8 flex relative">
+    <div className="max-w-5xl mx-auto text-white min-h-[55vh] py-8 flex relative">
       <div className="flex flex-col w-3/6 h-full justify-center z-30">
         <h1 className="font-mont font-light uppercase text-3xl">
           We are a superstore <br />& One-stop shop
