@@ -8,7 +8,7 @@ const Suppliers = () => {
         <img className="h-full object-cover" src="/images/woman.jpg" alt="" />
       </div>
       <div className="p-12 flex flex-col justify-center bg-white">
-        <div className=" bg-lime-600 rounded-lg shadow-lg p-4 relative w-4/6">
+        <div className=" bg-lime-600 rounded-lg shadow-lg p-4 relative w-full md:w-4/6">
           <h2 className="uppercase font-light">Suppliers</h2>
           <p className="font-myriad text-md font-medium">
             Are you a farmer in South Africa and selling fresh produce? We want

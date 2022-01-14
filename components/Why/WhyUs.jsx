@@ -10,11 +10,11 @@ const WhyUs = () => {
   const [toolTip6, setTooltipSix] = useState(false);
 
   return (
-    <div className="text-white">
+    <div className="text-white overflow-x-hidden">
       <div className="mx-auto max-w-5xl">
-        <div className="grid grid-cols-2 md:grid-cols-3 py-10 gap-5 h-[40vh]">
+        <div className="grid grid-cols-1 md:grid-cols-3 py-10 gap-5 min-h-[40vh] lg:h-[40vh]">
           {/*Tooltip One */}{' '}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipOne(true)}
               onMouseLeave={() => setTooltipOne(false)}
@@ -27,7 +27,7 @@ const WhyUs = () => {
             {toolTip1 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-44 translate-x-32 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-44 translate-x-32 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 top-0 h-full"
@@ -90,7 +90,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
           {/*Tooltip Two */}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipTwo(true)}
               onMouseLeave={() => setTooltipTwo(false)}
@@ -103,7 +103,7 @@ const WhyUs = () => {
             {toolTip2 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-44 translate-x-[50%] transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-44 translate-x-[50%] transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 top-0 h-full"
@@ -167,7 +167,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
           {/*Tooltip Three */}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipThree(true)}
               onMouseLeave={() => setTooltipThree(false)}
@@ -180,7 +180,7 @@ const WhyUs = () => {
             {toolTip3 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-32 translate-x-10 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-32 translate-x-10 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 -top-[44%] h-full"
@@ -242,7 +242,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
           {/*Tooltip Four */}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipFour(true)}
               onMouseLeave={() => setTooltipFour(false)}
@@ -255,7 +255,7 @@ const WhyUs = () => {
             {toolTip4 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-44 translate-x-full transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-44 translate-x-full transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 top-0 h-full"
@@ -321,7 +321,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
           {/*Tooltip Five */}{' '}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipFive(true)}
               onMouseLeave={() => setTooltipFive(false)}
@@ -334,7 +334,7 @@ const WhyUs = () => {
             {toolTip5 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-44 translate-x-[50%] transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-44 translate-x-[50%] transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 top-0 h-full"
@@ -385,7 +385,7 @@ const WhyUs = () => {
             )}{' '}
           </div>
           {/*Tooltip Six */}
-          <div className="h-full w-full relative">
+          <div className="h-full w-full relative px-6 md:px-0">
             <div
               onMouseEnter={() => setTooltipSix(true)}
               onMouseLeave={() => setTooltipSix(false)}
@@ -398,7 +398,7 @@ const WhyUs = () => {
             {toolTip6 && (
               <div
                 role="tooltip"
-                className="absolute z-20 w-full -translate-y-32 translate-x-10 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
+                className="absolute z-20 w-3/6 md:w-full -translate-y-32 translate-x-10 transition duration-150 ease-in-out left-0 shadow-lg bg-gray-800 p-4 rounded pointer-events-none"
               >
                 <svg
                   className="absolute left-0 -ml-2 bottom-0 -top-[44%] h-full"
@@ -459,11 +459,11 @@ const WhyUs = () => {
             )}{' '}
           </div>
         </div>
-        <div className="flex justify-center items-end h-[45vh] overflow-hidden">
+        <div className="flex justify-center items-end h-[45vh] overflow-hidden mt-4">
           <img
             src="/images/people.svg"
             alt=""
-            className="h-full object-cover self-end translate-y-12"
+            className="w-full object-cover self-end translate-y-40"
           />
         </div>
       </div>

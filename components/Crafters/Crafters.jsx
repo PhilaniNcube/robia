@@ -12,7 +12,7 @@ const Crafters = () => {
         />
       </div>
       <div className="p-12 flex flex-col justify-center bg-white">
-        <div className=" bg-lime-600 rounded-lg shadow-lg p-4 relative w-4/6">
+        <div className=" bg-lime-600 rounded-lg shadow-lg p-4 relative w-full md:w-4/6">
           <h2 className="uppercase font-light">Crafters</h2>
           <p className="font-myriad text-md font-medium">
             Do you sell crafts like shoes, handbags, beauty products, seasonal
