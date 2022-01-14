@@ -24,10 +24,7 @@ const ImageGrid = () => {
               Suppliers
             </h3>
             <p className="text-sm mt-2 font-mont">
-              For farmers, small restaurants, food trucks, crafters & informal
-              traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
-              volendi tiatque volenti dellessectet illa erspellut odi dolo
-              officit escid ent pore laudio quae
+              Are you a farmer in South Africa and selling fresh produce? We want you! 
             </p>
           </div>
         </div>
@@ -44,10 +41,8 @@ const ImageGrid = () => {
               RESTAURANTS/ FOOD TRUCKS
             </h3>
             <p className="text-sm mt-2 font-mont">
-              For farmers, small restaurants, food trucks, crafters & informal
-              traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
-              volendi tiatque volenti dellessectet illa erspellut odi dolo
-              officit escid ent pore laudio quae
+              Are you a small restaurant, food truck, food stall, bespoke caterer or farmers market? We want you!
+
             </p>
           </div>
         </div>
@@ -64,10 +59,7 @@ const ImageGrid = () => {
               CRAFTERS
             </h3>
             <p className="text-sm mt-2 font-mont">
-              For farmers, small restaurants, food trucks, crafters & informal
-              traders- Magnihillanis coreptatia nulpa con pore, ipsam quia
-              volendi tiatque volenti dellessectet illa erspellut odi dolo
-              officit escid ent pore laudio quae
+              Do you sell crafts like shoes, handbags, beauty products, seasonal crafts, home and living and clothing etc? We want you!
             </p>
           </div>
         </div>
