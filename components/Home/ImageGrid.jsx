@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 const ImageGrid = () => {
   return (
-    <div className="bg-white py-4 px-6 md:px-0 max-h-[45vh]">
+    <div className="bg-white py-4 px-6 md:px-0 min-h-[45vh]">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 max-w-5xl mx-auto text-white">
         <div className="relative isolate overflow-hidden h-full w-full">
           <img
@@ -24,7 +24,8 @@ const ImageGrid = () => {
               Suppliers
             </h3>
             <p className="text-sm mt-2 font-mont">
-              Are you a farmer in South Africa and selling fresh produce? We want you! 
+              Are you a farmer in South Africa and selling fresh produce? We
+              want you!
             </p>
           </div>
         </div>
@@ -41,8 +42,8 @@ const ImageGrid = () => {
               RESTAURANTS/ FOOD TRUCKS
             </h3>
             <p className="text-sm mt-2 font-mont">
-              Are you a small restaurant, food truck, food stall, bespoke caterer or farmers market? We want you!
-
+              Are you a small restaurant, food truck, food stall, bespoke
+              caterer or farmers market? We want you!
             </p>
           </div>
         </div>
@@ -59,7 +60,8 @@ const ImageGrid = () => {
               CRAFTERS
             </h3>
             <p className="text-sm mt-2 font-mont">
-              Do you sell crafts like shoes, handbags, beauty products, seasonal crafts, home and living and clothing etc? We want you!
+              Do you sell crafts like shoes, handbags, beauty products, seasonal
+              crafts, home and living and clothing etc? We want you!
             </p>
           </div>
         </div>

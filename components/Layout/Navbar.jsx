@@ -6,7 +6,7 @@ import { MenuIcon } from '@heroicons/react/solid';
 
 const Navbar = () => {
   return (
-    <nav className="max-w-5xl mx-auto flex items-center justify-between h-16 space-x-6">
+    <nav className="max-w-5xl mx-auto flex items-center justify-between h-16 space-x-6 px-6 md:px-0">
       <Link href="/" passHref>
         <img
           src="/images/logo.png"
@@ -14,7 +14,7 @@ const Navbar = () => {
           className="h-12 object-cover cursor-pointer"
         />
       </Link>
-      
+
       <Menu as="div" className="relative inline-block text-left z-50">
         <div className="flex items-center">
           <Menu.Button>
