@@ -12,7 +12,7 @@ const WhyUs = () => {
   return (
     <div className="text-white">
       <div className="mx-auto max-w-5xl">
-        <div className="grid grid-cols-2 md:grid-cols-3 py-10 gap-5 max-h-[40vh]">
+        <div className="grid grid-cols-2 md:grid-cols-3 py-10 gap-5 h-[40vh]">
           {/*Tooltip One */}{' '}
           <div className="h-full w-full relative">
             <div
@@ -459,11 +459,11 @@ const WhyUs = () => {
             )}{' '}
           </div>
         </div>
-        <div className="flex items-end h-[45vh]">
+        <div className="flex justify-center items-end h-[45vh]">
           <img
             src="/images/people.svg"
             alt=""
-            className="w-full object-cover"
+            className="w-full object-cover self-end"
           />
         </div>
       </div>
