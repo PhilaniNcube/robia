@@ -6,7 +6,7 @@ import { MenuIcon } from '@heroicons/react/solid';
 
 const Navbar = () => {
   return (
-    <nav className="max-w-7xl mx-auto flex items-center h-16 space-x-6">
+    <nav className="max-w-5xl mx-auto flex items-center h-16 space-x-6">
       <Link href="/" passHref>
         <img
           src="/images/logo.png"
