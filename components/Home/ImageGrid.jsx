@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 const ImageGrid = () => {
   return (
-    <div className="bg-white py-4 px-6 md:px-0">
+    <div className="bg-white py-4 px-6 md:px-0 max-h-[45vh]">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 max-w-5xl mx-auto text-white">
         <div className="relative isolate overflow-hidden h-full w-full">
           <img
