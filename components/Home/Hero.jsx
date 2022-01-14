@@ -6,8 +6,8 @@ const Hero = () => {
 
   return (
     <div className="max-w-5xl mx-auto text-white max-h-[50vh] flex relative">
-      <div className="flex flex-col w-3/6 min-h-[80vh] justify-center z-30">
-        <h1 className="font-mont font-light uppercase text-4xl">
+      <div className="flex flex-col w-3/6 h-full justify-center z-30">
+        <h1 className="font-mont font-light uppercase text-3xl">
           We are a superstore <br />& One-stop shop
         </h1>
         <p className="font-myriad font-semibold text-xl my-3">
