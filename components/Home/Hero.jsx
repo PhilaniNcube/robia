@@ -10,11 +10,11 @@ const Hero = () => {
         <h1 className="font-mont font-light uppercase text-3xl">
           We are a superstore <br />& One-stop shop
         </h1>
-        <p className="font-myriad font-semibold text-xl my-3">
+        <p className="font-myriad font-semibold text-md my-3">
           FOR FARMERS, SMALL RESTAURANTS, FOOD TRUCKS, CRAFTERS & INFORMAL
           TRADERS
         </p>
-        <p>
+        <p className="text-sm">
           Our marketplace encourages youth businesses and all entrepreneurs in
           the foods and crafts industry to showcase their products on our
           platform.
