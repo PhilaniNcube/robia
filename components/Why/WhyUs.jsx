@@ -463,7 +463,7 @@ const WhyUs = () => {
           <img
             src="/images/people.svg"
             alt=""
-            className="w-full object-cover self-end"
+            className="h-full object-cover self-end"
           />
         </div>
       </div>
