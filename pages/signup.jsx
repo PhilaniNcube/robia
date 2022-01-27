@@ -33,16 +33,28 @@ const signup = () => {
           <input
             type="text"
             placeholder="Name"
+            name="Name"
+            required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
+            type="checkbox"
+            name="botcheck"
+            id=""
+            className="hidden"
+          ></input>
+          <input
             type="email"
             placeholder="email"
+            name="email"
+            required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
             type="text"
             placeholder="041 123 4597"
+            name="Phone Number"
+            required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
