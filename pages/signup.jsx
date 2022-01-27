@@ -56,7 +56,10 @@ const signup = () => {
             value="https://robia.co.za"
           ></input>
 
-          <button className="bg-gradient-to-b from-lime-500 to-green-600 rounded-full px-8 py-2 mt-4 uppercase text-white w-2/6">
+          <button
+            type="submit"
+            className="bg-gradient-to-b from-lime-500 to-green-600 rounded-full px-8 py-2 mt-4 uppercase text-white w-2/6"
+          >
             Submit
           </button>
         </form>
