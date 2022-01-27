@@ -20,22 +20,41 @@ const signup = () => {
         <p className="text-xs text-gray-700 m-1 font-extrabold">
           *R700 Once Off Registration fee
         </p>
-        <form className="w-4/6 flex flex-col items-center mt-5">
+        <form
+          className="w-4/6 flex flex-col items-center mt-5"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="apikey"
+            value="20021218-1ba2-4428-b772-e80b679c6fcb"
+          ></input>
           <input
             type="text"
-    placeholder="Name"
+            placeholder="Name"
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
             type="email"
-    placeholder="email"
+            placeholder="email"
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
             type="text"
-    placeholder="041 123 4597"
+            placeholder="041 123 4597"
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
+          <input
+            type="hidden"
+            name="subject"
+            value="Sign Up Form Submission"
+          ></input>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://robia.co.za"
+          ></input>
 
           <button className="bg-gradient-to-b from-lime-500 to-green-600 rounded-full px-8 py-2 mt-4 uppercase text-white w-2/6">
             Submit

@@ -5,7 +5,7 @@ export default function MyApp() {
     <div>
       <div className="py-12 2xl:px-20 px-6 max-w-5xl mx-auto">
         <div className="flex flex-col items-center">
-          <h1 className="text-5xl font-light text-gray-800 text-center text-white font-mont">
+          <h1 className="text-5xl font-light text-center text-white font-mont">
             Contact us
           </h1>
 
