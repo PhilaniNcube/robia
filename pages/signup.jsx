@@ -23,14 +23,17 @@ const signup = () => {
         <form className="w-4/6 flex flex-col items-center mt-5">
           <input
             type="text"
+    placeholder="Name"
+            className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
+          />
+          <input
+            type="email"
+    placeholder="email"
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
           <input
             type="text"
-            className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
-          />
-          <input
-            type="text"
+    placeholder="041 123 4597"
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
 
