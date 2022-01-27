@@ -59,7 +59,7 @@ export default function MyApp() {
                 Email
               </p>
               <p className="text-base mt-4 leading-4 text-center text-gray-600">
-                kelly@orbia.co.za
+                info@robia.co.za
               </p>
             </div>
             <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center ">
