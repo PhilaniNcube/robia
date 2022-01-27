@@ -1,8 +1,30 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
+import React, { useState } from 'react';
 
 const signup = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
+
+  const sendMail = async (name, number, email) => {
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ name, number, email }),
+      });
+
+      //if sucess do whatever you like, i.e toast notification
+      alert('Email sent');
+      console.log(response);
+    } catch (error) {
+      // toast error message. whatever you wish
+      alert('There was error sending the email. Please call 083 295 6515');
+    }
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
       <div className="bg-gray-200 flex flex-col items-center justify-center h-full">
@@ -22,31 +44,27 @@ const signup = () => {
         </p>
         <form
           className="w-4/6 flex flex-col items-center mt-5"
-          action="https://api.web3forms.com/submit"
-          method="POST"
+          onSubmit={(e) => {
+            e.preventDefault();
+            sendMail(name, number, email);
+          }}
         >
-          <input
-            type="hidden"
-            name="apikey"
-            value="20021218-1ba2-4428-b772-e80b679c6fcb"
-          ></input>
           <input
             type="text"
             placeholder="Name"
             name="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
-          <input
-            type="checkbox"
-            name="botcheck"
-            id=""
-            className="hidden"
-          ></input>
+
           <input
             type="email"
             placeholder="email"
             name="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
@@ -54,19 +72,11 @@ const signup = () => {
             type="text"
             placeholder="041 123 4597"
             name="Phone Number"
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
             required
             className="rounded-full bg-white w-4/6 py-1 px-3 my-1"
           />
-          <input
-            type="hidden"
-            name="subject"
-            value="Sign Up Form Submission"
-          ></input>
-          <input
-            type="hidden"
-            name="redirect"
-            value="https://robia.co.za"
-          ></input>
 
           <button
             type="submit"
