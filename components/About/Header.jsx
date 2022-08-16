@@ -45,13 +45,9 @@ const Header = () => {
             Our main purpose is to create sustainable employment for youth and
             to encourage consumers to buy local products.
           </p>
-          <p className="pt-2 text-sm">
-            Our target market is business/leisure travellers and locals.
-          </p>
+
           <div className="w-full bg-gray-600 bg-opacity-60 p-4 my-4 rounded-lg shadow-lg">
-            <h3 className="text-xl font-medium">
-              The business is founded on the following sustainable goals:
-            </h3>
+            <h3 className="text-xl font-medium">We are passionate about:</h3>
             <ul>
               <li className="text-sm flex space-x-2 items-center h-8">
                 <span className="text-md">

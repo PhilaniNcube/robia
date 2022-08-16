@@ -5,7 +5,7 @@ const Hero = () => {
   const [tooltipStatus, setTooltipStatus] = useState(true);
 
   return (
-    <div className="max-w-5xl mx-auto text-white md:min-h-[50vh] py-4 flex flex-col md:flex-row relative">
+    <div className="max-w-5xl mx-auto text-white h-[70vh] py-4 flex flex-col md:flex-row relative">
       <div className="flex flex-col w-full md:w-3/6 h-full justify-center z-30 px-6 md:px-0">
         <h1 className="font-mont font-light uppercase text-3xl">
           We are a superstore <br />& One-stop shop
@@ -20,7 +20,9 @@ const Hero = () => {
           platform.
         </p>
       </div>
-      <div className="hidden h-full absolute right-12 top-0 md:flex items-end justify-start">
+
+      {/**
+     <div className="hidden h-full absolute right-12 top-0 md:flex items-end justify-start">
         <img
           onMouseEnter={() => setTooltipStatus(true)}
           onMouseLeave={() => setTooltipStatus(true)}
@@ -80,6 +82,8 @@ const Hero = () => {
           </div>
         )}{' '}
       </div>
+
+    * */}
     </div>
   );
 };
