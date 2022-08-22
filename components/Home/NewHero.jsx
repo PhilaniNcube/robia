@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 const NewHero = () => {
   return (
-    <section className="h-screen flex justify-center items-center">
-      <div className="max-w-5xl mx-auto px-4 h-[60vh] grid grid-cols-1 md:grid-cols-2 gap-3">
+    <section className="">
+      <div className="max-w-5xl mx-auto px-4 py-6  h-[60vh] grid grid-cols-1 md:grid-cols-2 gap-3">
         <div className="flex flex-col w-full justify-center z-30 text-white">
           <h1 className="font-mont font-light uppercase text-3xl">
             We are a superstore <br />& One-stop shop
@@ -18,7 +18,7 @@ const NewHero = () => {
           </p>
         </div>
 
-        <img src="/images/shopping.png" className="hidden md:block h-3/4 object-cover" alt="shopping" />
+        <img src="/images/cart_8_small.png" className="hidden md:block h-full object-cover" alt="shopping" />
       </div>
     </section>
   );
