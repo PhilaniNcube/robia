@@ -18,7 +18,7 @@ const NewHero = () => {
           </p>
         </div>
 
-        <img src="/images/cart_8_small.png" className="hidden md:block h-full object-cover" alt="shopping" />
+        <img src="/images/background.png" className="hidden md:block w-full object-cover" alt="shopping" />
       </div>
     </section>
   );
